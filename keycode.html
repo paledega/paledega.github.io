@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input type="text" size="40" onkeypress="myFunction(event)">
+
+<p id="demo"></p>
+
+<script>
+function myFunction(event) {
+  var x = event.which || event.keyCode;
+  document.getElementById("demo").innerHTML = "The Unicode value is: " + x;
+}
+</script>
+
+</body>
+</html>
