@@ -1,0 +1,140 @@
+/**
+ @Author: Dominik Ryńko
+ @Website: http://rynko.pl/prosta-strona-oparta-o-html5-i-css2-1/
+ @Version: 1.2
+*/
+
+html {
+    background-color: white;
+}
+
+a:link,
+a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+a {
+    transition: .2s ease-out, background 1s ease-in;
+}
+
+
+
+hr {
+    border: 0;
+    height: 1px;
+}
+
+figure {
+    display: block;
+    margin: 1em 0;
+}
+
+/**
+* Header section
+*/
+
+.header {
+    height: 170px;
+    padding-bottom:20px;
+}
+
+.header h1 {
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 4px;
+}
+
+
+/**
+ * Components of left side of website
+*/
+.menu a {
+    padding: 10px;
+    color: black;
+}
+
+.menu a:hover {
+    padding-left: 15px;
+    color: #ff4c00;
+}
+
+.menu a:hover {
+    background-color: white
+}
+
+/**
+ * Components of right side of website
+*/
+.right-sidebar {
+    background-color: #ffffff;
+}
+
+
+.read-more {
+    float: right;
+}
+
+.contact-form fieldset {
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.contact-form legend {
+    width: 170px;
+    padding: 0 10px 0 10px;
+    margin-left: calc(50% - 70px);
+}
+
+.contact-form dl {
+    text-align: center;
+    line-height: 40px;
+}
+
+.contact-form input[type=text], .contact-form input[type=email] {
+    width: 300px;
+}
+
+.contact-form input[type=submit] {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.footer {
+    padding-top: 15px;
+    min-height: 50px;
+    background-color: #000000;
+    clear: both;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+.footer a {
+    color: white;
+    font-style: italic
+}
+.footer p {
+    color: #ff4c00;
+    font-style: italic
+}
+
+.features{
+  margin-right: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 80px;
+}
+.top-menu{
+  padding-right: 150px;
+  padding-top: 20px;
+  padding-left: 80px;
+}
